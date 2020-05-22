@@ -28,14 +28,13 @@ public class BlankFragment extends Fragment {
 
         RecyclerView rv = rootView.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(new String[]{"car one",
-                "car two", "car three",
-                "car four", "car five" ,
-                "car six" , "car seven",
-                "car eight" , "car nine"});
+        MyAdapter adapter = new MyAdapter(new String[]{"jelo 1",
+                "jelo 2", "jelo 3",
+                "jelo 4", "jelo 5" ,
+                "jelo 6" , "jelo 7"});
         rv.setAdapter(adapter);
 
-        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
+        LinearLayoutManager llm = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
         rv.setLayoutManager(llm);
 
         return rootView;

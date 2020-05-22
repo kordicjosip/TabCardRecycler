@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">TabCardRecycler</string>
+    <string name="app_name">Taboo Menu</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opisjela">Tradicionalno začinjen, poslužen s prepelencem, ukiseljenim povrćem, maslacem i aiolijem od Dijon senfa.</string>
+    <string name="biftek">Biftek alla chef</string>
+    <string name="loremkratki">lorem, ipsum, dolor, sit, amet, elit</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur viverra quam vel tristique. Nunc nec lectus libero. Etiam in ullamcorper turpis. Nam magna enim, faucibus euismod neque maximus, facilisis lacinia nisl.</string>
+    <string name="preporukavina">PREPORUKA VINA</string>
+    <string name="vinoispod">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce </string>
+    <string name="cijena1">CIJENA</string>
 </resources>

@@ -8,26 +8,14 @@
     tools:context=".MainActivity">
 
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
-        android:elevation="6dp"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-
     <android.support.design.widget.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbar"
-        android:background="?attr/colorPrimary"
+        android:layout_height="80dp"
+        android:background="@drawable/backgroundtablettop"
         android:elevation="6dp"
         android:minHeight="?attr/actionBarSize"
-        app:tabIndicatorColor="#ff00ff"
+        app:tabIndicatorColor="#ffffff"
         app:tabMode="fixed"
         app:tabSelectedTextColor="#ffffff"
         app:tabTextColor="#d3d3d3" />
@@ -35,8 +23,9 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tab_layout" />
+        android:layout_height="720dp"
+        android:layout_below="@+id/tab_layout"
+        android:background="@drawable/backgroundtabletbottom"/>
 
 
 </RelativeLayout>
